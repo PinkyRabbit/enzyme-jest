@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.gift {
+  margin-top: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fbfadf;
+}
+
+input.form-control {
+  margin: 0 auto;
+  width: 80%;
+}
+
+button {
+  margin: 10px;
+}
