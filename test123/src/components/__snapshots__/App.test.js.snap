@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendered correctly 1`] = `
+<div>
+  <h2>
+    Hello world!
+  </h2>
+  <div
+    className="gifts-list"
+  />
+  <Button
+    active={false}
+    className="btn-add"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    variant="primary"
+  >
+    Add new gift
+  </Button>
+  <hr />
+  <Connect(Wallet) />
+</div>
+`;
