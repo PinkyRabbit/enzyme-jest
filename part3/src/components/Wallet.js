@@ -39,7 +39,7 @@ export class Wallet extends Component {
   }
 }
 
-export default connect(state => ({ balance: state }), {
+export default connect(state => ({ balance: state.balance }), {
   deposit,
   withdraw,
 })(Wallet);

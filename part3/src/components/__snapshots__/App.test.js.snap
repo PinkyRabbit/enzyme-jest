@@ -20,5 +20,7 @@ exports[`App rendered correctly 1`] = `
   </Button>
   <hr />
   <Connect(Wallet) />
+  <hr />
+  <Connect(Loot) />
 </div>
 `;

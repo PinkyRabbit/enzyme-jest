@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 
 import Gift from './Gift';
 import Wallet from './Wallet';
+import Loot from './Loot';
 
 class App extends Component{
   state = {
@@ -44,6 +45,8 @@ class App extends Component{
         >Add new gift</Button>
         <hr />
         <Wallet />
+        <hr />
+        <Loot />
       </div>
     );
   }
